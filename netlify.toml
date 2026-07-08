@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Esto asegura que React Router o navegación interna funcionen bien en Netlify
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
