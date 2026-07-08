@@ -24,7 +24,10 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "meta": {
+        "google-site-verification": "GpZYws-0KwyNyoIyov_JpsV9tmUSoAhzyTf9IkoYKAE"
+      }
     },
     "extra": {
       "eas": {
